@@ -1,0 +1,8 @@
+jupyter
+numpy
+pandas 
+matplotlib
+scipy
+sympy
+qgrid
+#jupyterlab
