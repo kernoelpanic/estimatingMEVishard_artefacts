@@ -1,4 +1,24 @@
 #extract to .py file later
+import math
+import numpy as np
+import matplotlib
+import matplotlib.pyplot as plt
+import itertools
+import scipy.special
+from decimal import *
+import unittest as ut
+
+from sympy.solvers import solve
+from sympy import Symbol
+from scipy.constants import golden as phi
+
+from matplotlib.colors import BoundaryNorm
+from matplotlib.ticker import MaxNLocator
+from matplotlib.ticker import FuncFormatter
+
+import sys
+sys.version
+#extract to .py file later
 def payoff_first_n_steps(p=0.1,delta=0.9999,n=1):
     # return total payoff for the first n steps/rounds
     return ( p * (1-delta**n) )/(1 - delta)
